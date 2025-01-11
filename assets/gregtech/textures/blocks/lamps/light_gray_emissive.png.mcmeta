@@ -1,8 +1,16 @@
 {
-  "ldlib": {
-    "connection": "gtceu:block/lamps/silver_ctm_emissive"
-  },
-  "shimmer": {
-    "bloom": true
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "BLOOM",
+    "gregtech": true,
+    "textures": [
+      "gregtech:blocks/lamps/light_gray_ctm_emissive"
+    ],
+    "extra": {
+      "connect_to": [
+        { "block": "gregtech:light_gray_lamp" }
+      ]
+    }
   }
 }

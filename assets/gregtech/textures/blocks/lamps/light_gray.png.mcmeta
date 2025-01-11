@@ -1,5 +1,16 @@
 {
-  "ldlib": {
-    "connection": "gtceu:block/lamps/silver_ctm"
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "gregtech": true,
+    "textures": [
+      "gregtech:blocks/lamps/light_gray_ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        { "block": "gregtech:light_gray_lamp" }
+      ]
+    }
   }
 }

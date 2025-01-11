@@ -1,11 +1,17 @@
 {
-	"animation":{
-		"frametime":2
-	},
-    "ldlib": {
-        "emissive": true
+    "ctm": {
+        "ctm_version": 1,
+        "type": "normal",
+        "layer": "BLOOM",
+        "gregtech": true,
+        "textures": [
+            "gregtech:blocks/casings/mechanic/machine_casing_assembly_line_bloom"
+        ],
+        "extra": {
+            "light": 15
+        }
     },
-    "shimmer": {
-        "bloom": true
+    "animation": {
+        "frametime": 2
     }
 }

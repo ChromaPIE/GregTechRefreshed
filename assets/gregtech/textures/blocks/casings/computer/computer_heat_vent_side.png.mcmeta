@@ -1,5 +1,13 @@
 {
-    "ldlib": {
-        "connection": "gtceu:block/casings/hpca/computer_heat_vent_side_ctm"
+    "ctm": {
+        "ctm_version": 1,
+        "type": "CTM",
+        "layer": "CUTOUT",
+        "textures": [
+            "gregtech:blocks/casings/computer/computer_heat_vent_side_ctm"
+        ],
+        "extra": {
+            "connect_inside": true
+        }
     }
 }
